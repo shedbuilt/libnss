@@ -1,0 +1,8 @@
+NAME=libnss
+VERSION=3.36.1
+REVISION=1
+LICENSE=MPL-2.0
+SRC=https://archive.mozilla.org/pub/security/nss/releases/NSS_3_36_1_RTM/src/nss-3.36.1.tar.gz
+SRCMD5=814d8fe3ec89006cf62078e2a56cf2f9
+BUILDDEPS=libnspr sqlite3 zlib
+INSTALLDEPS=libnspr sqlite3 zlib
